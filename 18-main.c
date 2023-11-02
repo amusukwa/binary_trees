@@ -20,7 +20,7 @@ root->right->right = binary_tree_node(root->right, 402);
 root->left->left = binary_tree_node(root->left, 10);
 root->right->left = binary_tree_node(root->right, 110);
 root->right->right->left = binary_tree_node(root->right->right, 200);
-oot->right->right->right = binary_tree_node(root->right->right, 512);
+root->right->right->right = binary_tree_node(root->right->right, 512);
 
 binary_tree_print(root);
 uncle = binary_tree_uncle(root->right->left);
